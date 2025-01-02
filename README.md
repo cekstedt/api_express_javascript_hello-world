@@ -2,17 +2,49 @@
 
 This JavaScript code sample demonstrates how to build an API server using Express.js that is secure by design.
 
-Visit the ["Express.js/JavaScript Code Samples: API Security in Action"](https://auth0.com/developers/hub/code-samples/api/express-javascript) section of the ["Auth0 Developer Hub"](https://auth0.com/developers/hub) to explore how you can secure Express.js applications written in JavaScript by implementing endpoint protection and authorization with Auth0.
+## Table of contents
 
-[![Express.js/JavaScript Code Samples: API Security in Action](https://cdn.auth0.com/blog/hub/code-samples/api/express-javascript.png)](https://auth0.com/developers/hub/code-samples/api/express-javascript)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [How to install and run](#how-to-install-and-run)
+- [Author](#author)
 
-## Why Use Auth0?
+## Overview
 
-Auth0 is a flexible drop-in solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that come with building your own solution to authenticate and authorize users. We offer tons of guidance and SDKs for you to get started and [integrate Auth0 into your stack easily](https://auth0.com/developers/hub/code-samples/full-stack).
+### The challenge
 
-## Set Up and Run the Express.js Project
+"This JavaScript guide will help you learn how to secure an Express.js API using token-based authorization."
 
-Install the project dependencies:
+### Links
+
+- Code URL: [Github](https://github.com/cekstedt/api_express_javascript_hello-world.git)
+- Live Site URL: Not Hosted (yet)
+- Challenge URL: [Auth0](https://developer.auth0.com/resources/guides/api/express/basic-authorization)
+
+## My process
+
+### Built with
+
+- NodeJS
+- Express
+- Auth0
+
+### How to install and run
+
+#### Fork and reset the original repo
+
+The setup instructions online appear to have decayed. Therefore, follow the following instructions to get to the `starter` branch as originally intended:  
+
+- Fork the [original repo](https://github.com/auth0-developer-hub/web-app_express_javascript_hello-world).
+- Clone into this forked repo, then cd into its home directory.
+- Find the commit you want to go back to. In `git log` the commit message will be "create starter application".
+- Reset to that commit's SHA: `git reset {git-hash-code}`
+- Push removal of changes to your fork's repo: `git push --force`
+
+#### Install the project dependencies:
 
 ```bash
 npm install
@@ -30,3 +62,7 @@ Run the project in development mode:
 ```bash
 npm run dev
 ```
+
+## Author
+
+- [@cekstedt](https://github.com/cekstedt)
