@@ -26,4 +26,8 @@ messagesRouter.get("/admin", validateAccessToken, (req, res) => {
   res.status(200).json(message);
 });
 
+messagesRouter.get("/error", (req, res) => {
+  throw new Error("Miscellaneous");
+});
+
 module.exports = { messagesRouter };
