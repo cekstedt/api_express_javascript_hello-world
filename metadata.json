@@ -7,7 +7,7 @@
     "original": false,
     "personal": false,
     "thumbnail": null,
-    "technologies": ["node", "express", "auth0"],
-    "status": "in_progress",
-    "priority": "high"
+    "technologies": ["node", "express", "auth0", "jest", "swagger"],
+    "status": "complete",
+    "priority": "done"
   }

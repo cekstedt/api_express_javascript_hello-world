@@ -6,6 +6,7 @@ const nocache = require("nocache");
 const { messagesRouter } = require("./messages/messages.router");
 const { errorHandler } = require("./middleware/error.middleware");
 const { notFoundHandler } = require("./middleware/not-found.middleware");
+const { swaggerDocs } = require("./swagger");
 
 dotenv.config();
 
@@ -19,6 +20,9 @@ const CLIENT_ORIGIN_URL = process.env.CLIENT_ORIGIN_URL;
 
 const app = express();
 const apiRouter = express.Router();
+
+// Swagger must be applied first, so that subsequent middlewares don't foul it up.
+swaggerDocs(app);
 
 app.use(express.json());
 app.set("json spaces", 2);
