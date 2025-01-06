@@ -2,7 +2,6 @@ const request = require("supertest");
 const dotenv = require("dotenv");
 dotenv.config();
 const app = require("../app");
-const messagesService = require("../messages/messages.service");
 
 describe("Anonymous user accessing", () => {
     test("public endpoint should receive a '200: Success' response", async () => {
