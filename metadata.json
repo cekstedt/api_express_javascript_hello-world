@@ -2,12 +2,11 @@
     "name": "Auth0 Node.js API Authorization By Example",
     "repo": "https://github.com/cekstedt/api_express_javascript_hello-world.git",
     "challenger": "Auth0",
-    "challenge page": "https://developer.auth0.com/resources/guides/api/express/basic-authorization",
+    "challenge_page": "https://developer.auth0.com/resources/guides/api/express/basic-authorization",
     "hosted": null,
     "original": false,
     "personal": false,
     "thumbnail": null,
     "technologies": ["node", "express", "auth0", "jest", "swagger"],
-    "status": "complete",
     "priority": "done"
   }
